@@ -17,7 +17,7 @@ variables:
 steps:
 - task: AzureResourceGroupDeployment@2
   inputs:
-    azureSubscription: 'AzureResourceConnection'
+    azureSubscription: 'azure-resource-connection'
     action: 'Create Or Update Resource Group'
     resourceGroupName: '$(BASE_NAME)-AML-RG'
     location: $(LOCATION)
