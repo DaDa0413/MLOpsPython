@@ -2,8 +2,9 @@
 resources:
 - repo: self
 
-pool: 
-  vmImage: 'ubuntu-latest'
+# pool: 
+#   vmImage: 'ubuntu-latest'
+pool: Default
 
 trigger:
   branches:
