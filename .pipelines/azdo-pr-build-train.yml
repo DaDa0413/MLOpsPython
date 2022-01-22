@@ -6,7 +6,7 @@ pr:
 
 # pool: 
 #   vmImage: 'ubuntu-latest'
-pool: MyPool
+pool: Default
 
 container: mcr.microsoft.com/mlops/python:latest  
 
